@@ -49,4 +49,8 @@ public:
     }
 };
 
+// Create freelist head pointer
+template <typename T>
+Link<T>* Link<T>::freelist = NULL;
+
 #endif
