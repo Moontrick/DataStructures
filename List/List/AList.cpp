@@ -102,13 +102,13 @@ void AList<T>::Next()
 
 // Returns list size
 template <typename T>
-const int AList<T>::Length()
+int AList<T>::Length() const
 { return listSize; }
 
 
 // Return the current position
 template <typename T>
-const int AList<T>::CurrPos()
+int AList<T>::CurrPos() const
 { return curr; }
 
 
