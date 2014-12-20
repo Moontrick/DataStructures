@@ -58,6 +58,6 @@ public:
 
 // Create freelist head pointer
 template <typename T>
-Link<T>* Link<T>::freelist = NULL;
+DLLink<T>* DLLink<T>::freelist = NULL;
 
 #endif
