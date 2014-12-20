@@ -27,13 +27,13 @@ AStack<T>::~AStack()
 
 // Reinitialize the stack.  User is responsible for reclaiming storage
 template <typename T>
-AStack<T>::Clear()
+void AStack<T>::Clear()
 { top = 0; }
 
 
 // Push "it" on top of the stack
 template <typename T>
-AStack<T>::Push(const T& it)
+void AStack<T>::Push(const T& it)
 {
     Assert(top != maxSize, "Stack is full!");
     listArray[top++] = it;

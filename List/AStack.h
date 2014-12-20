@@ -22,7 +22,7 @@ template <typename T> class AStack : public Stack<T>
 private:
     int maxSize;      // Max size of the stack
     int top;          // Index for top element
-    T *listArray      // Array holding stack elements
+    T *listArray;      // Array holding stack elements
     
 public:
     AStack(int size = DEFAULT_SIZE);
