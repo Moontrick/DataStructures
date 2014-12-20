@@ -36,8 +36,8 @@ public:
     void MoveToEnd();
     void Prev();
     void Next();
-    int Length();
-    int CurrPos();
+    const int Length();
+    const int CurrPos();
     void MoveToPos(int pos);
     const T& GetValue();
     

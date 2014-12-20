@@ -91,7 +91,7 @@ void AList<T>::MoveToEnd()
 // Set position to the previous element
 template <typename T>
 void AList<T>::Prev()
-{ if (cur != 0) curr--; }
+{ if (curr != 0) curr--; }
 
 
 // Set position to the next element
@@ -102,14 +102,14 @@ void AList<T>::Next()
 
 // Returns list size
 template <typename T>
-int AList<T>::Length() const
-const { return listSize; }
+const int AList<T>::Length()
+{ return listSize; }
 
 
 // Return the current position
 template <typename T>
-int AList<T>::CurrPos()
-const { return curr; }
+const int AList<T>::CurrPos()
+{ return curr; }
 
 
 // Set current list position to 'pos'
@@ -123,9 +123,9 @@ void AList<T>::MoveToPos(int pos)
 
 // Return the current element
 template <typename T>
-const T& AList<T>::GetValue() const
+const T& AList<T>::GetValue()
 {
-    Assert((curr >= 0) && (curr < listSize), "No current element")
+    Assert((curr >= 0) && (curr < listSize), "No current element");
     return listArray[curr];
 }
 
