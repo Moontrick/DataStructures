@@ -24,6 +24,7 @@ public:
     
     // Constructor with option for setting initial element
     Link(const T& elemval, Link* nextval = NULL) { element = elemval;  next = nextval; }
+    
     // Constructor that does not set initial element
     Link(Link* nextval = NULL) { next = nextval; }
 };
