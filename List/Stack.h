@@ -16,7 +16,7 @@
 template <typename T> class Stack
 {
 private:
-    void operator = (const Stack&)      // Protect assignment
+    void operator = (const Stack&);      // Protect assignment
     Stack(const Stack&) {}              // Protect copy constructor
     
 public:
