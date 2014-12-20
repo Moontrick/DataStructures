@@ -39,7 +39,7 @@ public:
     int Length() const;
     int CurrPos() const;
     void MoveToPos(int pos);
-    const T& GetValue();
+    const T& GetValue() const;
     
 };
 

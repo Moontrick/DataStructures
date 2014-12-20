@@ -123,7 +123,7 @@ void AList<T>::MoveToPos(int pos)
 
 // Return the current element
 template <typename T>
-const T& AList<T>::GetValue()
+const T& AList<T>::GetValue() const
 {
     Assert((curr >= 0) && (curr < listSize), "No current element");
     return listArray[curr];
