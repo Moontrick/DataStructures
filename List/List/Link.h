@@ -20,7 +20,7 @@ template <typename T> class Link
 {
 public:
     T element;    // Value for this node
-    Link *next    // Pointer to the next node in the list
+    Link *next;    // Pointer to the next node in the list
     
     // Constructor with option for setting initial element
     Link(const T& elemval, Link* nextval = NULL) { element = elemval;  next = nextval; }
