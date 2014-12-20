@@ -9,9 +9,8 @@ The implementation of each data structure is based off what I am reading in the 
 Data structures included so far:
 --------------------------------
 
-Array-based List
-Singly Linked List
-Doubly Linked List
-
-Array-based Stack
-Linked Stack
+*Array-based List
+*Singly Linked List
+*Doubly Linked List
+*Array-based Stack
+*Linked Stack
