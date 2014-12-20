@@ -8,9 +8,10 @@ The implementation of each data structure is based off what I am reading in the 
 
 Data structures included so far:
 --------------------------------
-
-Markup: *Array-based List
-		*Singly Linked List
-		*Doubly Linked List
-		*Array-based Stack
-		*Linked Stack
+<ul>
+<li>Array-based List</li>
+<li>Singly Linked List</li>
+<li>Doubly Linked List</li>
+<li>Array-based Stack</li>
+<li>Linked Stack</li>
+</ul>
