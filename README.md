@@ -14,4 +14,6 @@ Data structures included so far:
 <li>Doubly Linked List</li>
 <li>Array-based Stack</li>
 <li>Linked Stack</li>
+<li>Array-based Queue</li>
+<li>Linked Queue</li>
 </ul>
