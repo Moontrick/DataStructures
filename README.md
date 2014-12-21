@@ -16,4 +16,6 @@ Data structures included so far:
 <li>Linked Stack</li>
 <li>Array-based Queue</li>
 <li>Linked Queue</li>
+<li>Unsorted array-based Dictionary</li>
+<li>Sorted array-based Dictionary</li>
 </ul>
