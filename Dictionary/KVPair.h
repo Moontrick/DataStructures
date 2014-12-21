@@ -25,7 +25,7 @@ public:
     KVPair(const KVPair& c) { k = c.k; t = c.t; }       // Copy
     
     // Assignment operator
-    void operator = (const KVPiar& c) { k = c.k; t = c.t; }
+    void operator = (const KVPair& c) { k = c.k; t = c.t; }
     
     // Member access functions
     Key key() { return k; }
