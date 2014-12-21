@@ -39,16 +39,16 @@ public:
     
     // All remaining methods are exposed from AList.  Append is not available to SAList
     // as that would defeat the purpose of keeping the list nice and sorted
-    AList<KVPair<Key, T>>::Clear;
-    AList<KVPair<Key, T>>::Remove;
-    AList<KVPair<Key, T>>::MoveToStart;
-    AList<KVPair<Key, T>>::MoveToEnd;
-    AList<KVPair<Key, T>>::Prev;
-    AList<KVPair<Key, T>>::Next;
-    AList<KVPair<Key, T>>::Length;
-    AList<KVPair<Key, T>>::CurrPos;
-    AList<KVPair<Key, T>>::MoveTosPos;
-    AList<KVPair<Key, T>>::GetValue;
+    using AList<KVPair<Key, T>>::Clear;
+    using AList<KVPair<Key, T>>::Remove;
+    using AList<KVPair<Key, T>>::MoveToStart;
+    using AList<KVPair<Key, T>>::MoveToEnd;
+    using AList<KVPair<Key, T>>::Prev;
+    using AList<KVPair<Key, T>>::Next;
+    using AList<KVPair<Key, T>>::Length;
+    using AList<KVPair<Key, T>>::CurrPos;
+    using AList<KVPair<Key, T>>::MoveTosPos;
+    using AList<KVPair<Key, T>>::GetValue;
 };
 
 #endif /* defined(__List__SAList__) */
