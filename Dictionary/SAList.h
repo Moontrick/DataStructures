@@ -19,6 +19,8 @@
 
 template <typename Key, typename T> class SAList : protected AList<KVPair<Key, T>>
 {
+public:
+    SAList
 };
 
 #endif /* defined(__List__SAList__) */
