@@ -19,3 +19,5 @@ Data structures included so far:
 <li>Unsorted array-based Dictionary</li>
 <li>Sorted array-based Dictionary</li>
 </ul>
+
+A note about the Dictionary implementations: while what I have is adequate for showing how a Dictionary data structure works, I did not include a robust way of comparing Keys.  It will work if your Key is of type integer or float etc, but not with something like a string where the comparison is more ambiguous.  A separate comparator class would have to be created in order to accomodate for this.
