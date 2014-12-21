@@ -21,6 +21,19 @@
 
 template <typename Key, typename T> class SALDict : public Dictionary<Key, T>
 {
+private:
+    SAList<Key, T>* list;    // Sorted array of key-value pairs
+    
+public:
+    SALDict(int size = DEFAULT_SIZE);
+    ~SALDict();
+    
+    void Clear();
+    void Insert(const Key& k, const T& t);
+    T Remove(const Key& k);
+    T RemoveAny();
+    T Find(const Key& k) const;
+    int Size();
 };
 
 #endif /* defined(__List__SALDict__) */
